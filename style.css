@@ -1,0 +1,58 @@
+@keyframes PBA {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  position: relative;
+  width: 94.73%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h6 {
+  color: #fff;
+  position: absolute;
+  font-family: 'Nunito', sans-serif;
+  font-size: 120px;
+  padding-top: 450px;
+  text-align: center;
+  animation: PBA 4s ease 0s 100 reverse forwards;
+}
+
+
+p {
+  color: #FFFFFF;
+  position: absolute;
+  font-family: 'Nunito', sans-serif;
+  font-size: 41px;
+  padding-bottom: 250px;
+  text-align: left;
+  padding-right: 525px;
+  line-height: 1.75;
+  text-shadow: -5px 0px 15px #000000, 1px -7px 7px #000, -14px 8px 23px #000, 12px -23px 15px #000;
+}
+
+h5 {
+  color: #fff;
+  position: absolute;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  letter-spacing: 6px;
+}
